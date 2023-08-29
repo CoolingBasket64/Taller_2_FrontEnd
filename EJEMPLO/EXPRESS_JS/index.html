@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="es"> 
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Title -->
+    <title>Calculadora</title>
+    <!-- CSS -->
+    <link rel="stylesheet" type="text/css" href="./calculadora.css">
+    <script src="https://kit.fontawesome.com/99d8705f49.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <main class="main">
+        <div class="container">
+        
+    <!-- Cabecera -->
+    <header >
+      
+        </header>
+ 
+
+            
+    <!-- Calculadora -->
+    
+  <center>
+    <form id="Calculadora">
+     
+        <h2> CALCULADORA</h2>
+        <label>Numero 1 :
+             <input type="number" name="" id="valor1" class="form-control" required>
+        </label><br><br>
+        <label>Numero 2 :
+            <input type="number" name="" id="valor2" class="form-control" required>
+       </label><br><br>
+<br>
+<div class="grupo boton animacion" >
+<br>
+<button type="button" onclick="sumar();"><strong>SUMAR</strong></button>
+<button type="button" onclick="restar();"><strong>RESTAR</strong></button>
+<button type="button" onclick="multiplicar();"><strong>MULTIPLICAR</strong></button>
+<button type="button" onclick="dividir();"><strong>DIVIDIR</strong></button>
+</div>
+<p>El resultado es: <span id="resultado"></span></p>
+</form>  
+<script type="text/javascript" src="funciones.js"></script>
+</center>
+
+<br> <br>
+
+
+       
+    <!-- Footer -->
+    
+     </div>
+    </main>
+  </body>
+</html>
